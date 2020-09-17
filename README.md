@@ -129,7 +129,4 @@ Python provides smtplib module, which defines an SMTP client session object that
 
 ### home.html
 
-
-<p align="center">
-![display](https://user-images.githubusercontent.com/62648110/93502843-ea230280-f934-11ea-95b2-e8a071fce330.png)
-</p>
+![display](https://user-images.githubusercontent.com/62648110/93503636-fbb8da00-f935-11ea-9c38-a7f574ca71fc.png)
