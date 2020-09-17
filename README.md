@@ -9,4 +9,4 @@
 <p>The aim of this project is to identify if a call recording contains a message which could be a threat to the security of our country. By looking at some specific words and their usage in the recording we will decide if the call should be considered as threatening or not. 
   </p>
   
-  <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fcognitiveworld%2Ffiles%2F2018%2F08%2F4-ways-the-global-defense-forces-are-using-AI.jpg"  width="300" height="300" />
+  <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fcognitiveworld%2Ffiles%2F2018%2F08%2F4-ways-the-global-defense-forces-are-using-AI.jpg"  align="right" width="300" height="300" />
