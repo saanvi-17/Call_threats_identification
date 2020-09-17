@@ -52,3 +52,43 @@
 11. import os
 
 12.	from werkzeug.utils import secure_filename
+
+# Methodology
+## Flask
+Flask is a web framework. It provides us with tools, libraries and technologies that allows us to build a web application. This web application can be some web pages, a blog and a wiki or go as big as a web-based calendar application or a commercial website.
+
+-	The project has been created using Flask in PyCharm.
+
+-	In our project we have created a template ‘home.html’ which allows the user to upload an audio file of size up to 1MB in .wav format.
+
+-	Then it is checked if the user has uploaded the file according to the requirements. A flash message is displayed when there is no file or wrong file is uploaded.
+
+-	There is another template ‘display.html’ which displays the name of the audio file, the threatening words that are being used, the frequency of the words and whether the  audio is a threat or not.
+
+-	A mail is then sent to the concerned authorities so that they can take necessary action.
+
+
+## Speech to text
+-	In this project we upload an audio file which is in ‘.wav’ format in our user interface. All these audio files are stored in a directory. We have created an API using wit.ai to convert the Hindi audio files to text. 
+
+-	Wit.ai is a natural language processing interface used to turn sentences into structured data. Most important feature of wit.ai is that it is free.   We have used it for speech recognition.
+
+Steps involved to use wit.ai – 
+
+1.	Login to wit.ai using Github or Facebook account.  
+2.	Click on ‘+’ sign in Menu Bar and create a new app.
+3.	Then go to settings of the app. Under API details, copy the server access token to use it as an API key. 
+
+-	Recognizer class as the name suggests is used to recognize speech.
+
+-	An exception will be thrown if for some reason the API is not called properly or there is some error.
+
+-	After the transcription is done, the text string is stored.
+
+## Translation
+-	Googletrans is a library that implemented Google Translate API. We have used this to translate our text strings to English (from Hindi). 
+
+-	The translated text strings are then stored.
+
+## Regular Expression
+-	A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern.
