@@ -1,0 +1,26 @@
+for windows
+
+1. Open the project directory
+
+-to create a virtual environment
+(optional step)
+$ python3 -m venv /path/to/new/virtual/env
+
+-to install project dependencies
+$pip install -r requirements.txt
+
+2.FOR FLASK
+-open terminal and write
+cd project/
+
+-to set an environment variable to the file
+set FLASK_APP=main.py
+
+-to run the file
+flask run
+
+3. click on the web address generated.
+
+4. choose an audio file in .wav format and upload it.
+
+
