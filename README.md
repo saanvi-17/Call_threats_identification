@@ -94,4 +94,4 @@ Steps involved to use wit.ai –
 -	A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern.
 
 
-![regex](https://user-images.githubusercontent.com/62648110/93500910-594b2780-f932-11ea-92aa-56c7e2d582df.png)
+![regex](https://user-images.githubusercontent.com/62648110/93500910-594b2780-f932-11ea-92aa-56c7e2d582df.png =250x250)
