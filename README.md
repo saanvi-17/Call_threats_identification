@@ -93,9 +93,9 @@ Steps involved to use wit.ai –
 ## Regular Expression
 -	A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern.
 
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/62648110/93500910-594b2780-f932-11ea-92aa-56c7e2d582df.png" width="500" height="300" />
-
+</p>
 
 -	The text obtained from the converted audio will be matched with the help of regular expression to find threatening words (like terrorism, weapons, shoot, kill etc.) and identify if the call is a threat. We use a counter along with this to count the number of matches.
 
@@ -125,7 +125,7 @@ Python provides smtplib module, which defines an SMTP client session object that
 
 ![email](https://user-images.githubusercontent.com/62648110/93502376-46395700-f934-11ea-9845-f307b0296219.png)
 
-
+## Templates
 
 
 
