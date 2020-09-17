@@ -95,3 +95,32 @@ Steps involved to use wit.ai –
 
 
 <img src="https://user-images.githubusercontent.com/62648110/93500910-594b2780-f932-11ea-92aa-56c7e2d582df.png" width="500" height="300" />
+
+
+-	The text obtained from the converted audio will be matched with the help of regular expression to find threatening words (like terrorism, weapons, shoot, kill etc.) and identify if the call is a threat. We use a counter along with this to count the number of matches.
+
+# Stopwords
+-	Stopwords are considered as noise in text. Text may contain stopwords like is, an, the etc. Stopwords are removed or excluded from the given text so that more focus can be given to those words which define the meaning of the text. We can create a list of stopwords to filter out the words that we need.
+
+-	We use NLTK to convert the strings to tokens so that each word can be compared individually. 
+-	We have used the gensim library which has a list of its own stopwords which can be used to efficiently remove stopwords. 
+
+-	After removing the stopwords we find out the total number of words, tokens and filtered sentences 
+
+ # Frequency
+-	We calculate the ratio of the negative words to the total count and then find the frequency of the whole audio file.
+-	If the frequency is greater than 20 then it means the message could be a threat and an alert is sent to the concerned authorities and if it is lesser than 20 then no threat is detected.
+
+After calculating the frequency we display the name of the audio file, the threatening words that are being used, the frequency of the words and whether the audio is a threat or not.
+
+# Sending Email
+-	An alert will be sent in the form of an E-mail to the concerned authority so that they can check and take necessary action. 
+Simple Mail Transfer Protocol (SMTP) is a protocol, which handles sending e-mail and routing e-mail between mail servers. 
+Python provides smtplib module, which defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP. 
+
+# Screenshots
+
+
+
+
+
