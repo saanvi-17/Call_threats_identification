@@ -17,34 +17,35 @@
 ![flowchart](https://user-images.githubusercontent.com/62648110/93494666-e8ecd800-f92a-11ea-8f2d-8b44a7338853.png)
 
 # Libraries Used
-	import speech_recognition as sr           
+
+1. import speech_recognition as sr           
 -	used for speech recognition
 
-	from googletrans import Translator        
+2. from googletrans import Translator        
 -	For translation
 
-	import re             
+3. import re             
 -	for regular expressions 
 
-	import nltk                               
+4. import nltk                               
 -	for natural language processing
 
-	from nltk.tokenize import word_tokenize   
+5. from nltk.tokenize import word_tokenize   
 -	 to tokenize a string 
 
-	import spacy                             
+6. import spacy                             
 -	 for stopwords
 
-	import pandas as pd        
+7. import pandas as pd        
 -	for data analysis
 
-	import smtplib   
+8. import smtplib   
 -	sending email
 
-	from email.message import EmailMessage
+9. from email.message import EmailMessage
 
-	from flask import Flask, render_template, url_for, flash, request, redirect, send_from_directory
+10.	from flask import Flask, render_template, url_for, flash, request, redirect, send_from_directory
 
-	import os
+11. import os
 
-	from werkzeug.utils import secure_filename
+12.	from werkzeug.utils import secure_filename
