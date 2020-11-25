@@ -36,7 +36,7 @@
 5. from nltk.tokenize import word_tokenize   
    to tokenize a string 
 
-6. import spacy                             
+6. import gensim                             
 	 for stopwords
 
 7. import pandas as pd        
